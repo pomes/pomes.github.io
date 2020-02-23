@@ -1,0 +1,19 @@
+= Anti-fragility in IT systems
+Duncan Dickinson <https://www.duncan.dickinson.name>
+v0.1, {localdate}: Draft
+:keywords: cynefin, antifragile, artificial
+:imagesdir: img/
+:toc:
+
+Discussion surrounding anti-fragility is based in the work of Nassim Nicholas Taleb
+
+Keywords: {keywords}
+
+== Defining fragility
+
+
+== Evaluating fragility
+
+image::OuterInner.jpg[]
+
+== Annotated bibliography
