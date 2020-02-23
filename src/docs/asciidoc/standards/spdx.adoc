@@ -1,6 +1,0 @@
-= SPDX: The Software Package Data Exchange
-Duncan Dickinson <https://www.duncan.dickinson.name>
-:keywords: bill of materials
-
-"Software Package Data Exchange® (SPDX®) is an open standard for communicating software bill of material information (including components, licenses, copyrights, and security references)."
--- As given in the https://spdx.org/about[SPDX About page]
