@@ -5,7 +5,7 @@ v0.1, {localdate}: Draft
 :imagesdir: img/
 :toc:
 
-Discussion surrounding anti-fragility is based in the work of Nassim Nicholas Taleb
+Discussion surrounding anti-fragility is based in the work of Nassim Nicholas Taleb.
 
 Keywords: {keywords}
 
@@ -14,6 +14,7 @@ Keywords: {keywords}
 
 == Evaluating fragility
 
-image::OuterInner.jpg[]
+.The inner and outer aspects of a system
+image::OuterInner.png[]
 
 == Annotated bibliography

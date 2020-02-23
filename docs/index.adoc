@@ -3,7 +3,6 @@ Duncan Dickinson <https://www.duncan.dickinson.name>
 :toc:
 
 
-
 :leveloffset: +1
 
 include::briefs/index.adoc[]
@@ -29,7 +28,7 @@ Please use the Issues system to raise your ideas.
 image::img/pomes.png[The Pomes logo - a pomegranate,150,150]
 
 The outer view of a pomegranate is one of intriguing form - a variety range of colours, some roughness to
-the texture, and a
+the texture, and a little "crown" at the base.
 
 Within the fruit is a spongy structure that grasps the
 numerous seeds. These seeds are coated by a sweet membrane.
