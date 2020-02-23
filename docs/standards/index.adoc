@@ -1,5 +1,0 @@
-= Standards
-
-Discussion papers regarding various standards.
-
-- <<spdx.adoc#,SPDX: The Software Package Data Exchange>>

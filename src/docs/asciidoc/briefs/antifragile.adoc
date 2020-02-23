@@ -2,7 +2,7 @@
 Duncan Dickinson <https://www.duncan.dickinson.name>
 v0.1, {localdate}: Draft
 :keywords: cynefin, antifragile, artificial
-:imagesdir: img/
+:imagesdir: /images
 :toc:
 
 Discussion surrounding anti-fragility is based in the work of Nassim Nicholas Taleb.
