@@ -18,6 +18,7 @@ asciidoctor {
         from(sourceDir) {
             include 'images/**/*.png'
             exclude 'images/**/*.drawio'
+            include 'README.md'
         }
 
         from(projectDir) {
@@ -38,4 +39,4 @@ gitPublish {
     preserve {}
 }
 
-gitPublishCommit.dependsOn asciidoctor
+gitPublishCopy.dependsOn asciidoctor
