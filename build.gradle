@@ -10,27 +10,32 @@ repositories {
     jcenter()
 }
 
+defaultTasks 'asciidoctor'
+
 asciidoctor {
     baseDirFollowsSourceDir()
+    resources {
+        from(sourceDir) {
+            include 'images/**/*.png'
+            exclude 'images/**/*.drawio'
+        }
+
+        from(projectDir) {
+            include 'LICENSE.txt'
+        }
+    }
 }
 
 gitPublish {
-    // where to publish to (repo must exist)
     repoUri = 'git@github.com:pomes/pomes.github.io.git'
+    branch = 'master'
+    commitMessage = 'Publishing website update'
 
-    // branch will be created if it doesn't exist
-    branch = 'test'
-
-    // what to publish, this is a standard CopySpec
     contents {
-        from 'build/docs/asciidoc'
+        from asciidoctor.outputDir
     }
 
-    // what to keep in the existing branch (include=keep)
     preserve {}
-
-    // message used when committing changes
-    commitMessage = 'Publishing website update'
 }
 
-//gitPublishCommit.dependsOn asciidoctor
+gitPublishCommit.dependsOn asciidoctor
