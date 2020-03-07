@@ -1,5 +1,6 @@
 = Code flow: a partial view of the systems engineering process
 Duncan Dickinson <https://www.duncan.dickinson.name>
+:imagesdir: /images
 :toc:
 
 This article will focus on the delivery of a software system from a developer's local environment through to
@@ -27,7 +28,7 @@ through to the deployment of the system into one or more environments.
 .A basic flow for software production
 image::SoftwareProductionFlow.png[]
 
-A set of facets are highlighted in the diagram: 
+A set of facets are highlighted in the diagram:
 
 Local development environment:: each developer (or pair of developers) will produce code on a local machine
 
@@ -58,7 +59,7 @@ A number of aspects pertaining to the field of software engineering are not dire
 
 === Trust
 
-== Facets 
+== Facets
 === Local development environment
 
 
@@ -74,7 +75,7 @@ A number of aspects pertaining to the field of software engineering are not dire
 ==== Operating system repositories
 
 Most operating system (OS) distributions utilise a package manager that is used to install, update and remove
-packages. Examples of 
+packages. Examples of
 
 |===
 |Operating system |OS Distribution |Package manager |Package format
@@ -90,7 +91,7 @@ destination deployment environment.
 
 == Conclusion
 
-This article intends to remain high-level and further work will 
+This article intends to remain high-level and further work will
 
 == Glossary
 

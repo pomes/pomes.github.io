@@ -1,5 +1,0 @@
-= Briefs
-
-The articles contained here are general and semi-structured - best considered a set of notes.
-
-- <<briefs/antifragile.adoc#,Fragility>>

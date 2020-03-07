@@ -1,0 +1,6 @@
+= Working papers
+
+The articles contained here are general and semi-structured - best considered a set of notes.
+
+- <<working_papers/software_flow.adoc#,Software flow>>
+- <<working_papers/antifragile.adoc#,Fragility>>

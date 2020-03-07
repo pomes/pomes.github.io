@@ -1,0 +1,12 @@
+= How-to articles
+
+A set of articles providing technical guidance.
+
+== Git
+
+- <<howto/verification_in_git#,Verification in git>>
+- <<howto/secure_github#,Securing GitHub>>
+
+== Python
+
+- <<howto/secure_coding_python.adoc#,Secure coding in Python>>

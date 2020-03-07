@@ -1,18 +1,21 @@
 = Pomes
 Duncan Dickinson <https://www.duncan.dickinson.name>
-:includedir: src/docs/asciidoc
+:docinfo: shared
 :toc:
 
+WARNING: This is a work in progress (and likely always will be).
 
 :leveloffset: +1
 
-include::{includedir}/briefs.adoc[]
+include::{includedir}/working_papers.adoc[]
 
-include::{includedir}/analysis.adoc[]
+include::{includedir}/howto.adoc[]
 
 include::{includedir}/standards.adoc[]
 
-include::{includedir}/software.adoc[]
+// include::{includedir}/software.adoc[]
+
+include::{includedir}/glossary.adoc[]
 
 :leveloffset: -1
 
@@ -34,7 +37,6 @@ the texture, and a little "crown" at the base.
 Within the fruit is a spongy structure that grasps the
 numerous seeds. These seeds are coated by a sweet membrane.
 
-To me, the whole structure seemed an apt icon for
-discussing software systems.
+To me, the whole structure seemed an apt icon for discussing software systems.
 
 _The original image was accessed from the OpenClipArt website when it was operating._

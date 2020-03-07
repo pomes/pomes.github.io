@@ -10,7 +10,9 @@ repositories {
     jcenter()
 }
 
-asciidoctor {}
+asciidoctor {
+    baseDirFollowsSourceDir()
+}
 
 gitPublish {
     // where to publish to (repo must exist)

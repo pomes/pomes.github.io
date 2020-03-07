@@ -1,0 +1,9 @@
+= Glossary
+
+- <<glossary/dependency.adoc#,Dependency>>
+- <<glossary/package.adoc#,Package>>
+- <<glossary/package_manager.adoc#,Package manager>>
+- <<glossary/package_repository.adoc#,Package repository>>
+- <<glossary/software_project_management_tool.adoc#,Software project management tool>>
+- <<glossary/supply_chain.adoc#,Supply chain>>
+- <<glossary/supply_chain_risk_management.adoc#,Supply chain risk management>>
