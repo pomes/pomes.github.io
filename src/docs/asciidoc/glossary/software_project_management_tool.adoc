@@ -1,0 +1,55 @@
+= Software project management tool
+Duncan Dickinson <https://www.duncan.dickinson.name>
+:description: A software project management tool (SPMT) is used to describe facets of a software project - \
+including dependencies, tests, versioning and project information.
+
+{description}
+
+SPMTs provide a range of functionality, including:
+
+- Project details such as a descriptions and contributors
+- link:package_manager.adoc[Dependency management]
+- Build automation
+- Packaging
+
+== SPMT Tools 
+
+The https://en.wikipedia.org/wiki/Make_(software)[Make] application provides build automation functionality
+that can be utilised to perform a range of SPMT
+
+Some projects may utilise custom scripts to provide SPMT functionality (or enhance it).
+
+The subsections below attempt to highlight some key SPMT tools for major programming languages.
+
+=== .NET Core languages
+
+The .NET Core languages (C#, Visual Basic, F#) are supported by a common toolset. Refer to the 
+https://docs.microsoft.com/en-us/dotnet/core/[.NET Core guide].
+
+=== Go
+
+Go provides a number of SPMT elements in the `go` tool:
+
+- https://github.com/golang/go/wiki/Modules[Modules] - describes dependency management
+- https://golang.org/doc/code.html#Testing[Testing]
+
+=== Java/JVM-based languages
+
+- https://ant.apache.org/[Apache Ant]
+- https://bazel.build/[Bazel]
+- https://gradle.org/[Gradle]
+- https://maven.apache.org/[Apache Maven]
+- https://www.scala-sbt.org/[sbt]
+
+=== Javascript
+
+- https://www.npmjs.com/get-npm[npm]
+
+=== Python
+
+- https://github.com/pypa/pipenv[Pipenv]
+
+=== Rust
+
+Rust provides a number of SPMT elements in the base tooling.
+Refer to https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html[Packages and Crates].

@@ -1,0 +1,10 @@
+= Verifying packages
+Duncan Dickinson <https://www.duncan.dickinson.name>
+
+== libraries.io
+
+URL: https://libraries.io/
+
+== Semmle LGTM
+
+URL: https://semmle.com/lgtm

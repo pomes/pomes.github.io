@@ -1,0 +1,60 @@
+= Dependency
+Duncan Dickinson <https://www.duncan.dickinson.name>
+:description: A dependency is an artifact on which a software system/program is reliant on for operation. 
+
+{description}
+
+For example, System A may _depend on_ System B for a set of functions. In this case, _System_ could be a
+software application or software library/module but may also be a hardware component.
+
+A *transitive dependency* is one that a is required by a *dependency*. As such, System B itself may _depend on_
+System C, leading to a relationship of `System A -> System B -> System C` - with System C being a transitive
+dependency of System A.
+
+== General notes
+
+=== Defining dependencies
+
+Most modern software systems (e.g. operating system distribution or link:software_project_management_tool.adoc[software project management tool]) use a model of link:package_management[package management] to describe dependencies references to as link:package.adoc[packages]. 
+In turn, the dependant packages link to their dependencies (also provided as packages). It is common to describe dependencies using
+the name of the package as well as a specific version (or a set of possible versions).
+
+Alternative methods for including a dependency can involve adding the dependency's code into a source tree (e.g. the 
+https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefsubmoduleasubmodule[submodule]
+and https://github.com/git/git/blob/master/contrib/subtree/git-subtree.txt[subtree] approach in Git).
+
+=== Optional dependencies
+
+In some systems, dependencies can be listed as optional, allowing the operator to determine if they should 
+be utilised. This may cause reduced functionality but should not prevent the system from operating. Plugins
+are a common example of this and may be included at build- or run-time.
+
+Some software project management tools allow for dependencies to be classified and only included as certain points
+in the lifecycle. A common example of this is declaring dependencies required for testing a software project - these
+dependencies are only required during testing and not in the final distribution.
+
+=== Dependency visualisation
+Dependencies are often presented visually using a tree/graph structure. 
+
+.Example dependency tree for the https://palletsprojects.com/p/flask/[`flask`] project
+[source%nowrap]
+----
+Flask==1.1.1
+  - click [required: >=5.1, installed: 7.0]
+  - itsdangerous [required: >=0.24, installed: 1.1.0]
+  - Jinja2 [required: >=2.10.1, installed: 2.11.1]
+    - MarkupSafe [required: >=0.23, installed: 1.1.1]
+  - Werkzeug [required: >=0.15, installed: 1.0.0]
+----
+
+=== Cyclic dependencies
+
+*Cyclic dependencies* are those in which one package directly or indirectly (transitively)
+depends on itself. In a very simple example, consider `System A -> System B -> System C -> System A`.
+This can be problematic (and is often unsupported) as it is unclear how to correctly build/deploy a
+system in the correct order.
+
+== References
+
+- https://queue.acm.org/detail.cfm?id=3344149[Surviving Software Dependencies]
+- Apache Maven - https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html[Introduction to the Dependency Mechanism]

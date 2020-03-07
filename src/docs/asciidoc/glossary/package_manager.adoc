@@ -1,0 +1,3 @@
+= Package manager
+Duncan Dickinson <https://www.duncan.dickinson.name>
+

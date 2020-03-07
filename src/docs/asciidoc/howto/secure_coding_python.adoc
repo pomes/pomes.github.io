@@ -1,0 +1,35 @@
+= Secure coding in Python
+Duncan Dickinson <https://www.duncan.dickinson.name>
+
+== Security check tools
+
+=== Bandit
+
+_A security linter from PyCQA_
+
+URL: https://bandit.readthedocs.io/en/latest/
+
+=== Python Security
+
+_A plugin to run security checks for common flaws in Python code and suggest quick fixes._
+
+- https://plugins.jetbrains.com/plugin/13609-python-security[PyCharm plugin]
+- https://pycharm-security.readthedocs.io/en/latest/[Documentation]
+
+=== Safety
+
+_Safety is a command line tool. Use it to check your local virtual environment, your requirement files, or any input from stdin for dependencies with security issues._
+
+URL: https://pyup.io/safety/
+
+== Other tools
+
+=== Certifi
+
+_Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project._
+
+URL: https://pypi.org/project/certifi/
+
+== Other resources
+
+- https://snyk.io/blog/python-security-best-practices-cheat-sheet/[Snyk - Python Security Best Practices Cheat Sheet]

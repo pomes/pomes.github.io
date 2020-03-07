@@ -1,0 +1,2 @@
+= Verification in Git
+Duncan Dickinson <https://www.duncan.dickinson.name>

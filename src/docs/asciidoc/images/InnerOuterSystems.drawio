@@ -1,0 +1,39 @@
+<mxfile host="www.draw.io" modified="2020-03-05T05:48:22.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0" etag="vmq52vVhUB3ROs5XI0en" version="12.7.9" type="github">
+  <diagram id="4b5ikOwdnAJwDEFCklGP" name="Page-1">
+    <mxGraphModel dx="1550" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-1" value="&lt;p&gt;&lt;b&gt;Inner environment&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The inner environment defines the context that constrains the inner system.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-2" value="Outer system" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-4" value="&lt;p&gt;&lt;b&gt;Outer environment&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The outer environment defines the context against which the inner system is measured.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-5" value="Inner system" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-6" value="" style="shape=link;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-7" value="Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="BkKjs3Nr1oIirZ9xtFA8-6">
+          <mxGeometry x="-0.0714" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BkKjs3Nr1oIirZ9xtFA8-8" value="" style="shape=mxgraph.bpmn.service_task;html=1;outlineConnect=0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="155" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

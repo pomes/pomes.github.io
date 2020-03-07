@@ -1,0 +1,2 @@
+= Secure GitHub projects
+Duncan Dickinson <https://www.duncan.dickinson.name>

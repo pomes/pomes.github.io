@@ -1,0 +1,7 @@
+= Supply Chain Risk Management
+Duncan Dickinson <https://www.duncan.dickinson.name>
+:keywords: supply chain, risk, software
+
+
+
+== References
